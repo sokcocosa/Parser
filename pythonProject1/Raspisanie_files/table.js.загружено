@@ -1,0 +1,97 @@
+// <img id="specialButton" style="cursor:pointer;" src="https://lidrekon.ru/images/special.png" alt="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ" title="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ" /> <br>--> 
+
+document.write("<script src=\"../jslook/jquery.js\"></script>");
+document.write("<script src=\"../jslook/uhpv-full.min.js\"></script>");
+
+
+document.addEventListener("DOMContentLoaded", ready);
+function ready() {
+
+
+            var img = document.createElement('img');
+            img.style.position="absolute";
+            img.src = '../images/special.png';
+            img.id = "specialButton";
+            document.body.appendChild(img);
+            //down.innerHTML = "Image Element Added."; 
+            
+
+}
+
+
+
+
+function color(id) {
+var elems = document.getElementsByTagName('td'),
+length = elems.length;
+for(i=0; i<length;i++)
+{if (elems[i].className == id)
+elems[i].style.backgroundColor = '#c41e3a';
+else
+elems[i].style.backgroundColor = '#328aa4';
+if (elems[i].className == 'CL0')
+elems[i].style.backgroundColor = '#4A98AF';}
+var elems = document.getElementsByTagName('span'),
+length = elems.length;
+for(i=0; i<length;i++)
+{if (elems[i].className == id)
+elems[i].style.backgroundColor = '#c41e3a';
+else
+elems[i].style.backgroundColor = '#328aa4';
+if (elems[i].className == 'CL0')
+elems[i].style.backgroundColor = '#4A98AF';}
+var elems = document.getElementsByTagName('th'),
+length = elems.length;
+for(i=0; i<length;i++)
+{if (elems[i].className == id)
+elems[i].style.backgroundColor = '#c41e3a';
+else
+elems[i].style.backgroundColor = '#328aa4';
+if (elems[i].className == 'CL0')
+elems[i].style.backgroundColor = '#4A98AF';}
+}
+
+function color2(id) {
+var elems = document.getElementsByTagName('td'),
+length = elems.length;
+for(i=0; i<length;i++)
+{
+var sssr = elems[i].id;
+var st = id;
+var k = sssr.indexOf(st); 
+if (k >= 0)
+elems[i].style.backgroundColor = '#177245';
+else
+if (elems[i].className == 'CL0')
+elems[i].style.backgroundColor = '#4A98AF';
+else elems[i].style.backgroundColor = '#328aa4';
+}
+var elems = document.getElementsByTagName('th'),
+length = elems.length;
+for(i=0; i<length;i++)
+{
+var sssr = elems[i].id;
+var st = id;
+var k = sssr.indexOf(st); 
+if (k >= 0)
+elems[i].style.backgroundColor = '#177245';
+else
+if (elems[i].className == 'CL0')
+elems[i].style.backgroundColor = '#4A98AF';
+else elems[i].style.backgroundColor = '#328aa4';
+}
+var elems = document.getElementsByTagName('span'),
+length = elems.length;
+for(i=0; i<length;i++)
+{
+var sssr = elems[i].id;
+var st = id;
+var k = sssr.indexOf(st); 
+if (k >= 0)
+elems[i].style.backgroundColor = '#177245';
+else
+if (elems[i].className == 'CL0')
+elems[i].style.backgroundColor = '#4A98AF';
+else elems[i].style.backgroundColor = '#328aa4';
+}
+}

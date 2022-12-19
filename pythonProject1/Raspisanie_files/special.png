@@ -1,0 +1,442 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Аутентификация - Нефтекамский филиал Уфимского университета науки и технологий</title>
+		<link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="/css/owl.carousel.css">
+		<link rel="stylesheet" type="text/css" href="/css/jquery.bxslider.css">
+		<link rel="stylesheet" type="text/css" href="/css/style.css?v=1670133873">
+		<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"/>
+		<script type="text/javascript" src="/js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="/js/owl.carousel.js"></script>
+		<script type="text/javascript" src="/js/jquery.lazyload.js"></script>
+		<script type="text/javascript" src="/js/jquery.touchSwipe.js"></script>
+		<script type="text/javascript" src="/js/jquery.carouFredSel-6.2.1.js"></script>
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.bxslider.js"></script>
+		<script type="text/javascript" src="//share.pluso.ru/pluso-like.js" charset="UTF-8" async ></script>
+		<script type="text/javascript" src="/js/production.min.js"></script>
+	</head>
+	<body>
+		<div id="wrap" class="wrap-container">
+			<header>
+				<aside class="top clear">
+					<div class="date f-left">
+						<span>04 дек. 2022, воскресенье</span>
+						<span itemprop="copy"><a href="https://special.nfuunit.ru/" class="special">
+							Версия для слабовидящих
+						</a></span>
+					</div>
+					<div class="user f-right t-right">
+												<a href="/login/">
+							<span class="icon"><i class="fa fa-lock"></i></span><span class="text">Авторизация </span>
+																&nbsp;|&nbsp;<a href="/registration/">Регистрация</a>
+															</a>
+						   <a href="https://cabinet.nfuunit.ru/"><span> | Личный кабинет</span></a>
+					</div>
+				</aside>
+				<div class="main">
+					<div class="header-flex-row">
+						<div class="logotype">
+							<a href="/" class="adaptive">
+								<img src="/upload/logotype.png" alt="Нефтекамский филиал УУНиТ">
+							</a>
+						</div>
+						<div class="name">
+							<div class="title">Уфимский университет науки и технологий</div>
+							<div class="after">Нефтекамский филиал</div>
+							<small>Адрес: 452681 г.Нефтекамск, ул.Трактовая, 1.  |  Приемная:  8 (34783) 2-35-80  |  <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="8ee0e8fbfbe0e7facee0e8fbfbe0e7faa0fcfb">[email&#160;protected]</a>   </small>
+                        </div>
+						<div class="search-block">
+							<form action="/search/" method="get" class="search">
+								<i class="fa fa-search"></i>
+								<input type="search" name="query" placeholder="Поиск" value="">
+								<noscript>
+								<button type="submit">Найти</button>
+								</noscript>
+							</form>
+                            <div id="social-block">
+                                <a class="vk" href="https://vk.com/nfuunit" title="ВКонтакте" rel="noopener nofollow" target="_blank"><i class="fa fa-vk"></i></a>
+                            </div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<nav style="font-size:90%">
+    <ul class="table">
+        <li>
+        <a href="/sveden/">Сведения об образовательной организации</a>
+          <ul class="clear">
+              <li><i class="icon fa fa-caret-right"></i><a href="/p-1.html"><span>Основные сведения</span></a></li>
+              <li><i class="icon fa fa-caret-right"></i><a href="/c-5"><span>Структура и органы управления образовательной организацией</span></a></li>
+              <li><i class="icon fa fa-caret-right"></i><a href="/c-115"><span>Документы</span></a></li>
+              <li><i class="icon fa fa-caret-right"></i><a href="/c-121"><span>Образование</span></a></li>
+              <li><i class="icon fa fa-caret-right"></i><a href="/c-122"><span>Образовательные стандарты и требования</span></a></li>
+              <li><i class="icon fa fa-caret-right"></i><a href="/p-677.html"><span>Руководство. Педагогический (научно – педагогический) состав</span></a></li>
+              <li><i class="icon fa fa-caret-right"></i><a href="/c-149"><span>Материально-техническое обеспечение и оснащенность образовательного процесса</span></a></li>
+              <li><i class="icon fa fa-caret-right"></i><a href="/p-1124.html"><span>Стипендии и меры поддержки обучающихся</span></a></li>
+              <li><i class="icon fa fa-caret-right"></i><a href="/c-3"><span>Платные образовательные услуги</span></a></li>
+              <li><i class="icon fa fa-caret-right"></i><a href="/p-385.html"><span>Финансово-хозяйственная деятельность</span></a></li>
+              <li><i class="icon fa fa-caret-right"></i><a href="/c-2"><span>Вакантные места для приема (перевода) обучающихся</span></a></li>
+			  <li><i class="icon fa fa-caret-right"></i><a href="/p-382.html"><span>Доступная среда</span></a></li>
+		      <li><i class="icon fa fa-caret-right"></i><a href="/c-828"><span>Международное сотрудничество</span></a></li>	
+          </ul>
+        </li>
+        <li>
+          <a href="/c-121/">Образование</a></li>
+     
+        </li>
+        <li>
+           <a href="/c-80">Наука</a></li>
+
+        </li>
+        <li>
+            <a href="/c-150">Информационно-библиотечная обеспеченность</a></li>
+
+	<li>
+            <a href="/abitur"><strong>Абитуриенту</strong></a>    
+			
+		          <ul class="clear">
+              <li><i class="icon fa fa-caret-right"></i><a href="/c-12"><span>Абитуриенту (Бакалавриат)</span></a></li>
+              <li><i class="icon fa fa-caret-right"></i><a href="/c-830"><span>Абитуриенту (Колледж)</span></a></li>
+			  </ul>	
+		</li>
+        <li>
+           <a href="/c-60">Студенту</a>
+		   		          <ul class="clear">
+              <li><i class="icon fa fa-caret-right"></i><a href="/c-60"><span>Студенту (Бакалавриат)</span></a></li>
+              <li><i class="icon fa fa-caret-right"></i><a href="/c-832"><span>Студенту (Колледж)</span></a></li>
+			  </ul>	
+
+        </li>  	
+        <li>
+            <a href="/p-384.html">Трудоустройство</a>
+
+        </li>
+         <li>
+            <a href="http://isbashgu.bashedu.ru/epb/Default.aspx?papka=all_types" target="_blank">Правовая база</a>
+
+        </li>  
+		<li><a href="/c-174">История филиала</a></li>      
+    </ul>
+</nav>
+
+<p style="margin-top: 7px;">
+				
+				
+									<a href="/p-366.html" class="button special-medal table">
+										<font color=#FF9999>Горячая линия</font>
+									</a>
+									
+								
+				</p>							<div class="main-content clear">
+				<div class="main-content clear">
+					<div class="c-col f-left">
+						<!--                <main>-->
+						<main>
+	<nav class="breadcrumbs">
+    <div class="breadcrumbs">
+<a href="/">Главная</a> &raquo; <span>Вход в систему</span></div></nav>	<h1>Вход в систему</h1>
+	<article>
+		<form action="/login/" method="POST" autocomplete="off" class="login-form">
+	<div class="element table">
+		<div class="cell vm icon">
+			<span>
+				<i class="fa fa-user"></i>
+			</span>
+		</div>
+		<div class="cell vm">
+			<input type="text" name="login" placeholder="Имя пользователя" required="true">
+		</div>
+	</div>
+	<div class="element table">
+		<div class="cell vm icon">
+			<span>
+				<i class="fa fa-lock"></i>
+			</span>
+		</div>
+		<div class="cell vm">
+			<input type="password" name="password" placeholder="Пароль" required="true">
+		</div>
+	</div>
+	<div class="table">
+		<div class="cell">
+			<button class="button" type="submit">Войти</button>
+		</div>
+		<div class="cell t-right vm">
+			<a href="/remind/">Забыли пароль?</a>
+		</div>
+	</div>
+</form>	</article>
+</main>						<!--                </main>--></div>
+					<div class="r-col f-right">
+						<section class="block">
+							<header><p style="font-size:12.5px">Сведения об образовательной организации</header>
+							<p>
+
+
+			<section class="block list-ul">
+			
+				<article>
+					<ul>
+						<li><a href="/p-1.html"><span>Основные сведения</span></a></li>						
+						<li><a href="/c-5"><span>Структура и органы управления образовательной организацией</span></a></li>
+		                <li><a href="/c-115"><span>Документы</span></a></li>
+                        <li><a href="/c-121"><span>Образование</span></a></li>
+                        <li><a href="/c-122"><span>Образовательные стандарты и требования</span></a></li>
+		                <li><a href="/p-677.html"><span>Руководство. Педагогический (научно – педагогический) состав</span></a></li>
+		                <li><a href="/c-149"><span>Материально-техническое обеспечение и оснащенность образовательного процесса</span></a></li>
+		                <li><a href="/p-1124.html"><span>Стипендии и меры поддержки обучающихся</span></a></li>
+		                <li><a href="/c-3"><span>Платные образовательные услуги</span></a></li>
+		                <li><a href="/p-385.html"><span>Финансово-хозяйственная деятельность</span></a></li>
+		                <li><a href="/c-2"><span>Вакантные места для приема (перевода) обучающихся</span></a></li>	
+		                <li><a href="/p-382.html"><span>Доступная среда</span></a></li>
+		                <li><a href="/c-828"><span>Международное сотрудничество</span></a></li>							
+					</ul>
+				</article>
+
+			</section>
+		
+
+
+<article class="t-center">
+									<a href="http://olymp.i-exam.ru/winners?disc=all&univer=3214&year=all" target="_blank" class="button special-medal table">
+										<span class="image adaptive">
+											<img src="/upload/medal.png"/>
+										</span>
+										<span class="text vm">НФ БашГУ - победитель Открытых международных студенческих Интернет-олимпиад</span>
+									</a>
+																					
+								
+								<!--<p><a href="/p-1009.html" class="button">Горячая линия по вопросам </a></p>
+								<p><br/></p>-->
+								
+			<p>&nbsp;</p>	
+			</article>
+						</section>
+						<p>
+						  					  </p>
+						<section class="block list-ul">
+				                    <header><span>Последние</span> объявления</header>
+				                    <article>
+				                        <ul>
+				                            				                                    <li>
+				                                    	<a href="/p-1253.html">
+				                                    		Противодействие идеологии терроризма
+				                                    	</a>
+				                                    </li>
+				                                    				                                    <li>
+				                                    	<a href="/p-1141.html">
+				                                    		Документы для возврата подоходного налога 				                                    	</a>
+				                                    </li>
+				                                    				                                    <li>
+				                                    	<a href="/p-1162.html">
+				                                    		Возврат ошибочно перечисленных денежных средств				                                    	</a>
+				                                    </li>
+				                                    				                                    <li>
+				                                    	<a href="/p-365.html">
+				                                    		Портал "Работа в России"				                                    	</a>
+				                                    </li>
+				                                    				                                    <li>
+				                                    	<a href="/p-1059.html">
+				                                    		Портал "Безопасная среда"				                                    	</a>
+				                                    </li>
+				                                    				                                    <li>
+				                                    	<a href="/p-1040.html">
+				                                    		Информация Объединенного совета обучающихся НФ БашГУ				                                    	</a>
+				                                    </li>
+				                                    				                                    <li>
+				                                    	<a href="/p-783.html">
+				                                    		Информация для руководителей предприятий				                                    	</a>
+				                                    </li>
+				                                    				                        </ul>
+				                    </article>
+				                    <footer class="t-right">
+				                        <a href="/c-114">Все объявления</a>
+				                    </footer>
+	                  </section>
+					            ﻿			<section class="block list-ul">
+				<header class="blue"><span>Полезная</span> информация</header>
+				<article>
+					<ul>				
+						<li><a href="/p-382.html"><span>Доступная среда</span></a></li>
+						
+						<li><a href="/upload/files/pdf/Dokument/popd.pdf"><span>Политика обработки персональных данных</span></a></li>
+		                <li><a href="/p-602.html"><span>Противодействие коррупции</span></a></li>
+                        <li><a href="/p-1108.html"><span>Антитеррористическая деятельность</span></a></li>
+                        <li><a href="/p-1242.html"><span>Антинаркотическая профилактическая работа</span></a></li>
+                        <li><a href="/p-1085.html"><span>Телефон доверия противодействия наркоугрозе</span></a></li>
+						<li><a href="/p-1044.html"><span>Горячая линия НФ БашГУ по вопросам защиты прав студентов</span></a></li>
+					    <li><a href="/upload/files/pdf/kor/KodeksEtiki.pdf"><span>Кодекс корпоративной этики обучающихся и работников БашГУ</span></a></li>	
+						<li><a href="/p-1243.html"><span>Информация для родителей</span></a></li>
+						<li><a href="/c-813"><span>Рубрика «Прокурор разъясняет»</span></a></li>	
+						<li><a href="/p-1034.html"><span>Реквизиты для оплаты стоимости обучения</span></a></li>						
+                        <li><a href="/p-719.html"><span>Вакансии</span></a></li>
+		                <li><a href="/c-169"><span>О нас пишут</span></a></li>
+		                <li><a href="/p-603.html"><span>Полезные ссылки</span></a></li>
+					</ul>
+				</article>
+				<footer class="t-center">
+				</footer>
+			</section>
+		
+				<section class="block">
+					<article class="t-center"><a href="/faq/" class="button"><i class="fa fa-envelope-o"></i>Электронная приёмная НФБашГУ (Задать вопрос)</a></article>
+				</section>
+			</div>
+		</div>
+	</div>
+	<div class="links">
+	<section>
+		<header>Полезные ссылки</header>
+		<article>
+			<div class="links-content clear">
+									<div class="f-left">
+							<a href="http://www.bashedu.ru" class="adaptive" target="_blank" title="Башкирский государственный университет">
+								<img src="/upload/cache/resize/175x81/?file=%2Fupload%2Fslider%2Flinks%2Fbashedu.jpg" alt="Башкирский государственный университет">
+							</a>
+						</div>
+											<div class="f-left">
+							<a href="https://openedu.ru/university/hse/" class="adaptive" target="_blank" title="Открытое образование. Курсы Национального исследовательского университета «Высшая школа экономики»">
+								<img src="/upload/cache/resize/175x81/?file=%2Fupload%2Fslider%2Flinks%2Fvshe.jpg" alt="Открытое образование. Курсы Национального исследовательского университета «Высшая школа экономики»">
+							</a>
+						</div>
+											<div class="f-left">
+							<a href="https://minobrnauki.gov.ru/" class="adaptive" target="_blank" title="Министерство науки и высшего образования РФ">
+								<img src="/upload/cache/resize/175x81/?file=%2Fupload%2Fslider%2Flinks%2Fminobr.jpg" alt="Министерство науки и высшего образования РФ">
+							</a>
+						</div>
+											<div class="f-left">
+							<a href="http://neftcity.ru/" class="adaptive" target="_blank" title="Официальный сайтадминистрациигородского округаг. Нефтекамск">
+								<img src="/upload/cache/resize/175x81/?file=%2Fupload%2Fslider%2Flinks%2Fneftcity.jpg" alt="Официальный сайтадминистрациигородского округаг. Нефтекамск">
+							</a>
+						</div>
+											<div class="f-left">
+							<a href="https://www.bashkortostan.ru/" class="adaptive" target="_blank" title="Республика Башкортостан 
+">
+								<img src="/upload/cache/resize/175x81/?file=%2Fupload%2Fslider%2Flinks%2Fbashkortostan.jpg" alt="Республика Башкортостан 
+">
+							</a>
+						</div>
+											<div class="f-left">
+							<a href="http://cstv.bashedu.ru/" class="adaptive" target="_blank" title="РЕГИОНАЛЬНЫЙ ЦЕНТРСОДЕЙСТВИЯ ТРУДОУСТРОЙСТВуВЫПУСКНИКОВ БашГУ
+">
+								<img src="/upload/cache/resize/175x81/?file=%2Fupload%2Fslider%2Flinks%2Fcstv.jpg" alt="РЕГИОНАЛЬНЫЙ ЦЕНТРСОДЕЙСТВИЯ ТРУДОУСТРОЙСТВуВЫПУСКНИКОВ БашГУ
+">
+							</a>
+						</div>
+											<div class="f-left">
+							<a href="http://www.neft-gf.ru/" class="adaptive" target="_blank" title="Нефтекамская государственная филармония">
+								<img src="/upload/cache/resize/175x81/?file=%2Fupload%2Fslider%2Flinks%2Fneftgf.jpg" alt="Нефтекамская государственная филармония">
+							</a>
+						</div>
+											<div class="f-left">
+							<a href="https://yandexlyceum.ru/" class="adaptive" target="_blank" title="Яндекс.Лицей">
+								<img src="/upload/cache/resize/175x81/?file=%2Fupload%2Fslider%2Flinks%2Fya.jpg" alt="Яндекс.Лицей">
+							</a>
+						</div>
+											<div class="f-left">
+							<a href="https://02.xn--b1aew.xn--p1ai/Press_sluzhba/Nashi_proekti/JEKSTREMIZMU.HET" class="adaptive" target="_blank" title="Приемная ЦПЭ МВД">
+								<img src="/upload/cache/resize/175x81/?file=%2Fupload%2Fslider%2Flinks%2Fmvd.jpg" alt="Приемная ЦПЭ МВД">
+							</a>
+						</div>
+											<div class="f-left">
+							<a href="http://konferencii.ru/" class="adaptive" target="_blank" title="Конференции.RU">
+								<img src="/upload/cache/resize/175x81/?file=%2Fupload%2Fslider%2Flinks%2Fkonf.jpg" alt="Конференции.RU">
+							</a>
+						</div>
+											<div class="f-left">
+							<a href="http://bus.gov.ru/pub/info-card/190782" class="adaptive" target="_blank" title="Официальный сайт для размещения информации о государственных (муниципальных) учреждениях">
+								<img src="/upload/cache/resize/175x81/?file=%2Fupload%2Fslider%2Flinks%2Fbusgov.jpg" alt="Официальный сайт для размещения информации о государственных (муниципальных) учреждениях">
+							</a>
+						</div>
+											<div class="f-left">
+							<a href="http://xn--h1ajgms.xn--p1ai/" class="adaptive" target="_blank" title="Национальный центр информационного противодействия терроризму и экстремизму в образовательной среде и сети Интернет">
+								<img src="/upload/cache/resize/175x81/?file=%2Fupload%2Fslider%2Flinks%2Fncpti.jpg" alt="Национальный центр информационного противодействия терроризму и экстремизму в образовательной среде и сети Интернет">
+							</a>
+						</div>
+											<div class="f-left">
+							<a href="http://scienceport.ru/" class="adaptive" target="_blank" title="Наука и образование против террора">
+								<img src="/upload/cache/resize/175x81/?file=%2Fupload%2Fslider%2Flinks%2Fsfedu_top.jpg" alt="Наука и образование против террора">
+							</a>
+						</div>
+											<div class="f-left">
+							<a href="http://www.ege.edu.ru" class="adaptive" target="_blank" title="Официальный информационный портал единого государственного экзамена">
+								<img src="/upload/cache/resize/175x81/?file=%2Fupload%2Fslider%2Flinks%2Fege.edu.ru.jpg" alt="Официальный информационный портал единого государственного экзамена">
+							</a>
+						</div>
+											<div class="f-left">
+							<a href="http://fgosvo.ru" class="adaptive" target="_blank" title="Федеральные государственные образовательные стандарты высшего образования">
+								<img src="/upload/cache/resize/175x81/?file=%2Fupload%2Fslider%2Flinks%2Ffgosvo.ru.jpg" alt="Федеральные государственные образовательные стандарты высшего образования">
+							</a>
+						</div>
+											<div class="f-left">
+							<a href="http://obrnadzor.gov.ru" class="adaptive" target="_blank" title="Официальный сайт Рособрнадзора">
+								<img src="/upload/cache/resize/175x81/?file=%2Fupload%2Fslider%2Flinks%2Fobrnadzor.gov.ru.jpg" alt="Официальный сайт Рособрнадзора">
+							</a>
+						</div>
+											<div class="f-left">
+							<a href="http://www.edu.ru" class="adaptive" target="_blank" title="Российское образование. Федеральный образовательный портал: учреждения, программы, стандарты, ВУЗы, тесты ЕГЭ, ГИА">
+								<img src="/upload/cache/resize/175x81/?file=%2Fupload%2Fslider%2Flinks%2Fwww.edu.ru.jpg" alt="Российское образование. Федеральный образовательный портал: учреждения, программы, стандарты, ВУЗы, тесты ЕГЭ, ГИА">
+							</a>
+						</div>
+											<div class="f-left">
+							<a href="http://window.edu.ru/" class="adaptive" target="_blank" title="Единое окно">
+								<img src="/upload/cache/resize/175x81/?file=%2Fupload%2Fslider%2Flinks%2FEdinoeokno.png" alt="Единое окно">
+							</a>
+						</div>
+											<div class="f-left">
+							<a href="http://school-collection.edu.ru/" class="adaptive" target="_blank" title="Единая коллекция">
+								<img src="/upload/cache/resize/175x81/?file=%2Fupload%2Fslider%2Flinks%2FEKCOR.png" alt="Единая коллекция">
+							</a>
+						</div>
+											<div class="f-left">
+							<a href="http://www.informio.ru" class="adaptive" target="_blank" title="Информио - Современные медиа технологии в образовании и культуре - организация федерального масштаба, обеспечивающая профильное взаимодействие учреждений образования.">
+								<img src="/upload/cache/resize/175x81/?file=%2Fupload%2Fslider%2Flinks%2Fwww.informio.ru.jpg" alt="Информио - Современные медиа технологии в образовании и культуре - организация федерального масштаба, обеспечивающая профильное взаимодействие учреждений образования.">
+							</a>
+						</div>
+								</div>
+		</article>
+	</section>
+</div>
+</div>
+<footer>
+	<div class="wrap-container">
+		﻿ <section class="clear">
+    <nav class="f-left">
+        <ul>
+            <li><a href="/c-1">Сведения об образовательной организации</a></li>
+            <li><a href="/c-121/">Образование</a></li>
+            <li><a href="/c-80">Наука</a></li>
+            <li><a href="/c-150">Информационно-библиотечная обеспеченность</a></li>
+            <li><a href="/c-12">Абитуриентам</a></li>
+            <li><a href="/c-60">Студентам</a></li>
+            <li><a href="/p-384.html">Трудоустройство</a></li>
+        </ul>
+    </nav>
+    <div class="top f-right t-center"><a href="javascript:void(null);" id="to-top">Вверх</a></div>
+</section>		<div class="copyright t-center">
+			<p>&copy;Нефтекамский филиал УУНиТ 2000-2022.<br/>Все права защищены.<br/>При любом копировании материалов сайта ссылка на источник обязательна.</p>
+		</div>
+	</div>
+</footer>
+
+<!-- Yandex.Metrika counter -->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(87692834, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/87692834" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</body>
+</html>
