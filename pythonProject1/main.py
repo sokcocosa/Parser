@@ -1,31 +1,26 @@
-import Prepod_lesson
 import Group_lesson
+
 from bs4 import BeautifulSoup
 
 with open('Raspisanie.html') as file:
     source = file.read()
 soup = BeautifulSoup(source, 'html.parser')
 
-variable = int(input('Вы хотите узнать расписание группы или преподователя?(1 или 2): '))
+Group_lesson.day_week('Понедельник')
+Group_lesson.day_week('Вторник')
+Group_lesson.day_week('Среда')
+Group_lesson.day_week('Четверг')
+Group_lesson.day_week('Пятница')
+Group_lesson.day_week('Суббота')
+if 'Воскресенье' in soup.text:
+    Group_lesson.day_week('Воскресенье')
+
+variable = int(input('Вы хотите узнать расписание группы, преподователя или всё расписание?(1, 2 или 3): '))
 if variable == 1:
-    group = input('Введите навзание группы (вида ИС-31к): ') + '_'
-    Group_lesson.day_week_group('Понедельник', group)
-    Group_lesson.day_week_group('Вторник', group)
-    Group_lesson.day_week_group('Среда', group)
-    Group_lesson.day_week_group('Четверг', group)
-    Group_lesson.day_week_group('Пятница', group)
-    Group_lesson.day_week_group('Суббота', group)
-    if 'Воскресенье' in soup.text:
-        Group_lesson.day_week_group('Воскресенье', group)
-    Group_lesson.print_lessons()
+    group1 = input('Введите навзание группы (вида ИС-31к): ') + '_'
+    Group_lesson.get_lesson_group(group1)
 elif variable == 2:
-    prepod = input('Введите фамилию и 2 инициала преподавателя(Иванов И.И.): ')
-    Prepod_lesson.day_week_prepod('Понедельник', prepod)
-    Prepod_lesson.day_week_prepod('Вторник', prepod)
-    Prepod_lesson.day_week_prepod('Среда', prepod)
-    Prepod_lesson.day_week_prepod('Четверг', prepod)
-    Prepod_lesson.day_week_prepod('Пятница', prepod)
-    Prepod_lesson.day_week_prepod('Суббота', prepod)
-    if 'Воскресенье' in soup.text:
-        Prepod_lesson.day_week_prepod('Воскресенье', prepod)
-    Prepod_lesson.print_lessons()
+    prepod = input('Введите фамилию и инициалы преподавателя (вида Мугаллимова Л.И.): ')
+    Group_lesson.get_lesson_prepod(prepod)
+elif variable == 3:
+    Group_lesson.get_all_lessons()

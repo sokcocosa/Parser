@@ -9,24 +9,19 @@ soup = BeautifulSoup(source, 'html.parser')
 class Group_lesson(object):
     lessons = []
 
-    def __init__(self, days, data, para, start, end, prepod, group, subject, type_occupation, place_classes):
+    def __init__(self, days, data, para, prepod, group, subject, type_occupation, place_classes):
         self.days = days
         self.data = data
         self.para = para
-        self.start = start
-        self.end = end
         self.prepod = prepod
         self.group = group
         self.subject = subject
         self.type_occupation = type_occupation
         self.place_classes = place_classes
+        Group_lesson.lessons.append(self)
 
-
-"""        Group_lesson.lessons.append(self)"""
-
-"""    def __str__(self):
-        return f'{self.days} {self.data} {self.para} {self.start} {self.end} {self.prepod} {self.sabject} {self.type_occupation} {self.place_classes}'
-"""
+    def __str__(self):
+        return f'День недели: {self.days}; Дата: {self.data}; Пара: {self.para}; Преподаватель: {self.prepod}; Группа: {self.group}; Предмет: {self.subject}; Вид занятия: {self.type_occupation}; Место проведения: {self.place_classes}.'
 
 
 def prepare(value: str) -> str:
@@ -41,64 +36,59 @@ def prepare(value: str) -> str:
     return value
 
 
-def day_week_group(days1, ids):
+def day_week(days1):
     data = soup.find('td', day=days1)
-    n = soup.find_all('td', id=ids, day=days1)
+    n = soup.find_all('td', day=days1)
     for i in n:
-        if 'День самостоятельной работы ' not in i:
+        if 'День самостоятельной работы ' not in i and 'Пересдачи ' not in i and (i.text.split()[-1].isdigit() or i.text.split()[-1] == 'УУНиТ' or '116' in i):
             par = i.get("para").split()
-            par1 = par[-1].split('-')
             name = i.text.strip()
-            prepod = re.findall(r'([А-Я][^ ]+ [А-Я]\.[А-Я]\.)', name)[0]
-            if 'лек.' in i.text:
+            prepods = re.findall(r'([А-Я][^ ]+ [А-Я]\.[А-Я]\.)', name)
+            prepod = str(prepods).split("'")[1]
+            place_classes = i.text.split()[-1]
+            line = re.sub('ст.пр.', '', i.text)
+            if 'лек.' in line:
                 type_occupation = 'Лекция'
-                subject = i.text.split(', лек.')[0]
-            elif ' лаб.' in i.text:
+                subject = line.split(', лек.')[0]
+            elif ' лаб.' in line:
                 type_occupation = 'Лабораторная работа'
-                subject = i.text.split(', лаб.')[0]
-            elif 'зачет.' in i.text:
+                subject = line.split(', лаб.')[0]
+            elif 'зачет.' in line:
                 type_occupation = 'Зачет'
-                subject = i.text.split(', зачет.')[0]
-            elif 'экзамен.' in i.text:
+                subject = line.split(', зачет.')[0]
+            elif 'экзамен.' in line:
                 type_occupation = 'Экзамен'
-                subject = i.text.split(', экзамен.')[0]
-            elif 'пр.' in i.text:
+                subject = line.split(', экзамен.')[0]
+            elif 'пр.' in line:
                 type_occupation = 'Практика'
-                subject = i.text.split(', пр.')[0]
-            elif ',' not in i.text:
+                subject = line.split(', пр.')[0]
+            else:
                 type_occupation = 'Не указано'
-                subject = i.text.split(str(prepod))[0]
-            else:
-                type_occupation = i.text.split(',')[1]
-                subject = i.text.split(',')[0]
+                subject = line.split(str(prepod))[0]
+
             if 'ЭИОС НФ УУНиТ' in i.text:
-                Group_lesson.lessons.append({
-                    'day': days1,
-                    'date': data.get("data"),
-                    'para': par[0],
-                    'start': par1[0],
-                    'end': par1[1],
-                    'prepod': prepod,
-                    'group': i.get("id"),
-                    'subject': subject,
-                    'type_occupation': type_occupation,
-                    'place_classes': 'ЭИОС НФ УУНиТ'
-                })
+                n1 = Group_lesson(days1, data.get("data"), par[0], prepods, i.get("id"), subject, type_occupation,
+                                  'ЭИОС НФ УУНиТ')
+            elif 'Спортивный зал № 116' in i.text:
+                n1 = Group_lesson(days1, data.get("data"), par[0], prepods, i.get("id"), subject, type_occupation,
+                                  'Спортивный зал № 116')
             else:
-                Group_lesson.lessons.append({
-                    'day': days1,
-                    'date': data.get("data"),
-                    'para': par[0],
-                    'start': par1[0],
-                    'end': par1[1],
-                    'prepod': prepod,
-                    'group': i.get("id"),
-                    'subject': subject,
-                    'type_occupation': type_occupation,
-                    'place_classes': i.text.split()[-1]
-                })
+                n1 = Group_lesson(days1, data.get("data"), par[0], prepods, i.get("id"), subject, type_occupation,
+                                  place_classes)
 
 
-def print_lessons():
+def get_lesson_group(group1):
+    for i in Group_lesson.lessons:
+        if group1 == str(i.group):
+            print(i)
+
+
+def get_lesson_prepod(prepod):
+    for i in Group_lesson.lessons:
+        if prepod in i.prepod:
+            print(i)
+
+
+def get_all_lessons():
     for i in Group_lesson.lessons:
         print(i)
